@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Retro Music Site</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #fefefe;
+      color: #222;
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    audio {
+      display: block;
+      margin: 1rem auto;
+      width: 300px;
+    }
+    a.button {
+      display: block;
+      margin: 1rem auto;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      background: #222;
+      color: #fff;
+      border-radius: 4px;
+      text-align: center;
+      font-weight: bold;
+      width: fit-content;
+    }
+    .ad {
+      margin: 1rem 0;
+      padding: 1rem;
+      background: #eee;
+      text-align: center;
+      border: 1px solid #ccc;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Retro Music Site</h1>
+
+  <!-- Top banner ad -->
+  <div class="ad">[AD SPACE TOP BANNER]</div>
+
+  <h2>Listen</h2>
+  <audio controls>
+    <source src="music/mytrack.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Inline ad -->
+  <div class="ad">[AD SPACE INLINE]</div>
+
+  <h2>Download</h2>
+  <a href="music/mytrack.mp3" download class="button">Download Track</a>
+
+  <!-- Sidebar-style ad -->
+  <div class="ad">[AD SPACE SIDEBAR]</div>
+
+  <!-- Footer ads -->
+  <div class="ad">[AD SPACE FOOTER 1]</div>
+  <div class="ad">[AD SPACE FOOTER 2]</div>
+</body>
+</html>
